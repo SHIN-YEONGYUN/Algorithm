@@ -10,16 +10,19 @@ public class Ex11_세수정렬하기 {
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = sc.nextInt();
 		}
-		if (temp <= arr[0]) {
-			temp = arr[0];
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = i + 1; j < arr.length; j++) {
+				if (arr[j] > arr[temp]) {
+					temp = j;
+				}
+			}
+			int oo = arr[temp];
+			arr[temp] = arr[i];
+			arr[i] = oo;
 		}
-		if (temp <= arr[1]) {
-			temp = arr[1];
+		for (int i : arr) {
+			System.out.print(i + " ");
 		}
-		if (temp <= arr[2]) {
-			temp = arr[2];
-		}
-		System.out.printf("%d %d %d\n" + temp, temp, temp);
 
 	}
 }
