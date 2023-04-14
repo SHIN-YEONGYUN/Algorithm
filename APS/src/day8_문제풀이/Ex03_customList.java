@@ -9,7 +9,7 @@ public class Ex03_customList {
 		public void addLast(int value) {
 			Node n = new Node(value);
 			if (head == null) {
-				head = new Node(values);
+				head = new Node(value);
 			} else {
 				Node now = head;
 				while (now.next != null) {
@@ -50,6 +50,7 @@ public class Ex03_customList {
 			for (; k > 0; k--) {
 				list.addLast(list.removeFirst());
 			}
+			int number
 		}
 	}
 
