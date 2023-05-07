@@ -2,7 +2,7 @@ package algo5;
 
 import java.util.Scanner;
 
-public class algo41 {
+public class Backjoon_10871_X보다작은수 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 

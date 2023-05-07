@@ -2,7 +2,7 @@ package algo5;
 
 import java.util.Scanner;
 
-public class algo43 {
+public class Backjoon_2562_최댓값 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int[] arr = new int[9];

@@ -2,7 +2,7 @@ package algo5;
 
 import java.util.Scanner;
 
-public class algo46 {
+public class Backjoon_5597_과제안내신분 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int[] arr = new int[31];

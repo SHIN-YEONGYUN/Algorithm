@@ -2,7 +2,7 @@ package algo5;
 
 import java.util.Scanner;
 
-public class algo44 {
+public class Backjoon_10810_공넣기 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt(); // 총 바구니 갯수
